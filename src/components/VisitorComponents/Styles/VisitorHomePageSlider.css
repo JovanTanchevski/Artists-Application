@@ -1,0 +1,52 @@
+.image-slider-cont {
+  height: 30vh;
+  background: #edd5bb;
+}
+.container-1,
+.container-2 {
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+}
+
+.photobanner {
+  padding-top: 30px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.directionRev {
+  animation: bannermoveRev 120s linear infinite;
+}
+.directionNorm {
+  animation: bannermoveNorm 120s linear infinite;
+}
+
+.photobanner img {
+  width: 300px;
+  height: 300px;
+  cursor: pointer;
+}
+
+.photobanner img {
+  margin: 0 0.5em;
+}
+
+@keyframes bannermoveRev {
+  100% {
+    transform: translate(0, 0);
+  }
+  0% {
+    transform: translate(-50%, 0);
+  }
+}
+@keyframes bannermoveNorm {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-50%, 0);
+  }
+}

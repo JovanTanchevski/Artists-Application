@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+.visitor-listing-page {
+  min-height: 100%;
+  width: 100%;
+  background-color: #edd5bb;
+  overflow: hidden;
+  position: relative;
+}
+.visitor-listing-page .cardContainer .card {
+  margin-top: 50px;
+  filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25));
+  border-radius: 2px;
+}
+.visitor-listing-page .cardContainer .card .card-body .card-title {
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.visitor-listing-page .cardContainer .card .card-body .card-artist-title {
+  font-family: "Reenie Beanie", cursive;
+  font-size: 35px;
+  line-height: 30px;
+}
+.visitor-listing-page .cardContainer .card .card-body .drawing-price {
+  font-size: 15px;
+  font-weight: normal;
+  padding: 5px;
+}
+.visitor-listing-page .cardContainer .card .card-body .item-title p {
+  font-size: 18px;
+  font-family: "Roboto", cursive;
+}
+.visitor-listing-page .cardContainer .card .card-img-top {
+  max-height: 200px;
+}
+.visitor-listing-page .cardContainer .card-one {
+  color: #a16a5e;
+  background-color: #fcebd5;
+}
+.visitor-listing-page .cardContainer .card-one .card-body .card-title .drawing-price {
+  display: flex;
+  align-items: center;
+  padding: 3px 8px;
+  color: #fcebd5;
+  background: #a26a5e;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+}
+.visitor-listing-page .cardContainer .card-two {
+  color: #fcebd5;
+  background-color: #a16a5e;
+}
+.visitor-listing-page .cardContainer .card-two .card-body .card-title {
+  color: #fcebd5;
+}
+.visitor-listing-page .cardContainer .card-two .card-body .card-title .drawing-price {
+  background: #fcebd5;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+  color: #a16a5e;
+}
+.visitor-listing-page .filter-btn {
+  position: fixed;
+  padding: 10px 15px;
+  background: rgba(221, 84, 84, 0.5);
+  color: white;
+  font-size: 40px;
+  top: 85%;
+  right: 5%;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+  z-index: 1;
+  transition: all 0.5s ease-in-out;
+}
+.visitor-listing-page .filter-btn:hover {
+  transform: scale(1.1);
+}/*# sourceMappingURL=Card.css.map */

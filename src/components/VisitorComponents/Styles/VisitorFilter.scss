@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.visitor-filter-page {
+  background: #a26a5e;
+  min-height: 100vh;
+  color: #edd5bb;
+  form {
+    padding-top: 30px;
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    .filter-title {
+      margin-top: 10px;
+      font-size: 30px;
+      line-height: 35px;
+      color: #fcebd5;
+      font-family: 'Roboto', serif;
+    }
+    .close-btn {
+      position: absolute;
+      color: #fff;
+      font-size: 60px;
+      right: 0;
+    }
+    .form-group {
+      padding: 50px 0;
+      // vidi dali padding ili margin
+      border-bottom: 1px solid #fcebd5;
+      input,
+      select {
+        display: block;
+        width: 40%;
+        padding: 5px;
+        border: 1px solid #edd5bb;
+        border-radius: 2px;
+        background: transparent;
+      }
+      ::placeholder {
+        color: #edd5bb;
+      }
+      label {
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+      }
+    }
+    .submitBtn {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      padding-bottom: 30px;
+      font-size: 40px;
+      background: #b36756;
+      color: white;
+      border: none;
+      box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
+      border-radius: 2px;
+      padding: 10px 15px;
+    }
+  }
+}

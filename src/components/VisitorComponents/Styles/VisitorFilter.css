@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+.visitor-filter-page {
+  background: #a26a5e;
+  min-height: 100vh;
+  color: #edd5bb;
+}
+.visitor-filter-page form {
+  padding-top: 30px;
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+}
+.visitor-filter-page form .filter-title {
+  margin-top: 10px;
+  font-size: 30px;
+  line-height: 35px;
+  color: #fcebd5;
+  font-family: "Roboto", serif;
+}
+.visitor-filter-page form .close-btn {
+  position: absolute;
+  color: #fff;
+  font-size: 60px;
+  right: 0;
+}
+.visitor-filter-page form .form-group {
+  padding: 50px 0;
+  border-bottom: 1px solid #fcebd5;
+}
+.visitor-filter-page form .form-group input,
+.visitor-filter-page form .form-group select {
+  display: block;
+  width: 40%;
+  padding: 5px;
+  border: 1px solid #edd5bb;
+  border-radius: 2px;
+  background: transparent;
+}
+.visitor-filter-page form .form-group ::-moz-placeholder {
+  color: #edd5bb;
+}
+.visitor-filter-page form .form-group :-ms-input-placeholder {
+  color: #edd5bb;
+}
+.visitor-filter-page form .form-group ::placeholder {
+  color: #edd5bb;
+}
+.visitor-filter-page form .form-group label {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+.visitor-filter-page form .submitBtn {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding-bottom: 30px;
+  font-size: 40px;
+  background: #b36756;
+  color: white;
+  border: none;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+  padding: 10px 15px;
+}/*# sourceMappingURL=VisitorFilter.css.map */

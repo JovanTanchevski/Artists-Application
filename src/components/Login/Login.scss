@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
+
+.login-page {
+  text-align: center;
+  height: 100vh;
+  background: #fcebd5;
+  .login-content {
+    padding-top: 50px;
+    position: relative;
+    height: 50vh;
+    width: 50%;
+    margin: 0 auto;
+    background: #fcebd5;
+    h2 {
+      font-family: 'Reenie Beanie', cursive;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 45px;
+      line-height: 45px;
+      padding-top: 30px;
+    }
+    .artists-login-content {
+      position: relative;
+      height: 100%;
+      width: 100%;
+      clip-path: polygon(0 0, 100% 0%, 100% 68%, 0 34%);
+      background: #edd5bb;
+      transition: 0.2s all ease-in-out;
+      border-radius: 10px;
+
+      &:hover {
+        transform: scale(1.03);
+      }
+      select {
+        position: absolute;
+        left: 70%;
+        padding: 5px 10px;
+        background-color: transparent;
+        width: 20%;
+        color: #a16a5e;
+        border: 1px solid #a16a5e;
+        border-radius: 3px;
+      }
+    }
+    .visitor-login-content {
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      top: 0px;
+      background: #a26a5e;
+      color: white;
+      clip-path: polygon(0 28%, 100% 66%, 100% 100%, 0 100%);
+      transition: 0.2s all ease-in-out;
+      border-radius: 10px;
+      &:hover {
+        transform: scale(1.03);
+      }
+      h2 {
+        color: #fcebd5;
+        position: absolute;
+        bottom: 10%;
+        left: 10%;
+      }
+    }
+  }
+}
+@media screen and (max-width: 600px) {
+  .login-page {
+    .login-content {
+      width: 70%;
+    }
+  }
+}

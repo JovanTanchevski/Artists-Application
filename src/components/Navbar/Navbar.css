@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap");
+nav {
+  background: #f5e3cb;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav h1 {
+  font-family: "Reenie Beanie", cursive;
+  margin: 0;
+  font-size: 35px;
+  text-transform: capitalize;
+}/*# sourceMappingURL=Navbar.css.map */
